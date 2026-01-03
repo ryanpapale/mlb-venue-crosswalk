@@ -16,7 +16,7 @@ This file is provided for convenience and reproducibility. It does not represent
 
 Users should refer to the original data sources for the most up-to-date or definitive information.
 
-This license does is only intended for the code and derived data. Users are responsible for ensuring compliance with those terms when using the data.
+This license does is only intended for the code and derived data. Users are responsible for ensuring compliance with MLB and Retrosheet terms when using the data.
 
 
 ## Directories
