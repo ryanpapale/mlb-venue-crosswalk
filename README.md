@@ -6,8 +6,9 @@ The purpose of this project is to create a crosswalk (mapping) between MLB and R
 ## Further Information
 
 The file [VenueCrosswalk.csv](02Data/VenueCrosswalk.csv) is a derived dataset created by combining and reconciling publicly available venue information from:
-- **The MLB Stats API** \
-- **Retrosheet** \
+- **The MLB Stats API** 
+
+- **Retrosheet** 
 for the 1980-2025 period.
 
 This file is provided for convenience and reproducibility. It does not represent an official dataset from MLB or Retrosheet, and it should not be considered authoritative.
