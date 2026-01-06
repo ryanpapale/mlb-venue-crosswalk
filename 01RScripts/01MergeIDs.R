@@ -59,7 +59,9 @@ mlb <- request("https://statsapi.mlb.com/api/v1/venues/") |>
   ][lower_name == "ratefield", 
     lower_name := "guaranteedratefield;u.s.cellularfield"
   ][lower_name == "olympicstadium", 
-    lower_name := "stadeolympique"]
+    lower_name := "stadeolympique"
+  ][lower_name == "americanfamilyfield", 
+    lower_name := "millerpark"]
 
 #Get Park Info from Retrosheet (https://www.retrosheet.org/parkcode.txt)
 retro <- fread("https://www.retrosheet.org/parkcode.txt") |>
